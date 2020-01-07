@@ -3,5 +3,5 @@
 ## Complexity
 
 ## Sort
-* [ Bubble Sort ]()
-* [ Insertion Sort ]()
+* [ Bubble Sort ](./bubble-sort.md)
+* [ Insertion Sort ](./insertion-sort.md)
