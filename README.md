@@ -1,6 +1,7 @@
 # Algorithms
 
 ## Complexity
+* [Complexity](./complexity.md)
 
 ## Sort
 * [ Bubble Sort ](./bubble-sort.md)
