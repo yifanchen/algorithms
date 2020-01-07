@@ -4,11 +4,10 @@ Insertion sort is simple sorting algorithm that builds the final sorted array(or
 
 ![Insertion Sort](imgs/Insertion-sort-example-300px.gif)
 
-Description
-
+### Description
 The best way I have seen to describe Insertion Sort is that imagine you are playing cards. Now your job is to sort the cards, so you pull the first card out and hold it in your hands as a key, you then compare it with the second card. If it is samller, you put it in postion A or otherwise you put it in position B.
 
-Advantages:
+### Advantages
 * Simple implementation
 * Efficient for small data sets, much like other quadratic sorting algorithms
 * More efficient in practice than most other simple quadratic(i.e., O(n^2)) algorithms such as selection sort or bubble sort
@@ -23,7 +22,9 @@ When people manually sort cards in bridge hand, most use a method that is simila
 const s = a => {
   const l = a.length
 
+  // Starts with index(1) becuase key is the reference compares to
   for (let i = 1; i < l; i++) {
+    // Setting up key here
     const key = a[i]
     let j = i
 
@@ -31,7 +32,7 @@ const s = a => {
       a[j] = a[j - 1]
       j--
     }
-    a[j] = keyj
+    a[j] = key
   }
   return a
 }
