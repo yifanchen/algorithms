@@ -5,7 +5,7 @@ Insertion sort is simple sorting algorithm that builds the final sorted array(or
 ![Insertion Sort](imgs/Insertion-sort-example-300px.gif)
 
 ### Description
-The best way I have seen to describe Insertion Sort is that imagine you are playing cards. Now your job is to sort the cards, so you pull the first card out and hold it in your hands as a key, you then compare it with the second card. If it is samller, you put it in postion A or otherwise you put it in position B.
+The best way I have seen to describe Insertion Sort is that imagine you are playing cards. Now your job is to sort the cards, so you pull the first card out and hold it in your hands as a key, you then compare it with the second card. If it is samller, you put it in Position A or otherwise you put it in Position B. Next, you are going to compare Key to the third card, same again, samller in Position A, greater in Position B until all the cards are sorted.
 
 ### Advantages
 * Simple implementation
@@ -24,7 +24,7 @@ const s = a => {
 
   // Starts with index(1) becuase key is the reference compares to
   for (let i = 1; i < l; i++) {
-    // Setting up key here
+    // Setting up key here, key's position varies.
     const key = a[i]
     let j = i
 
