@@ -4,6 +4,22 @@ In computer science, the time complexity is the computational complexity that de
 
 Since an algorithm's running time may vary among different inputs of the same size, one commonly considers the worst-case time complexity, which is the maximum amount of time required for inputs of a given size. Less common, and usually specified explicitly, is the average-case complexity, which is the average of the time taken on inputs of a given size. In both cases, the time complexity is generally expressed as a function of the size of the input. Since this function is generally difficult to compute exactly, and the running time for small inputs is usually not consequential, one commonly focuses on the behavior of the complexity when the input size increases - that is, the asymptotic behavior of the complexity. Therefore, the time complexity is commonly expressed using big O notation.
 
+Big O Notation:
+1. Constant: `O(1)`
+2. Logarithmic: `O(log n)`
+3. Linear: `O(n)`
+4. Linearithmic: `O(n log n)`
+5. Quadratic: `O(n^2)`
+6. Expontential: `O(2^n)`
+7. Factorial: `O(n!)`
+
+Array in Big O:
+1. Indexing: `O(1)`
+2. Inserting: `O(n)`
+3. Deleting: `O(n)`
+4. Brute-force Searching: `O(n)`
+5. Optimized Searching: `O(log n)`
+
 ### Big O Notation Complexity Chart
 ![Big O Notion Complexity Chart](./imgs/big-o-notion-chart.jpg)
 
