@@ -27,7 +27,7 @@ Complexity: `O(n^2)`
 
 ## Thoughts 2
 
-Using Hash
+Using hash table
 
 ```javascript
 const twoSum = (nums, target) => {
@@ -45,4 +45,9 @@ Complexity: `O(n)`
 
 ## Performance
 
-Regardless the
+Regardless the complexity of Big O notation, for some reasons, burte force approach runs faster than hash table approach, this might caused by browser rendering, language mechanism, etc.
+
+![Brute force approach vs Hash table approach](../imgs/bgFpTwW.jpg)
+*img credit from leetcode community*
+
+I will try to dig up and see what caused it exactly, the Big O Notation applies thoroughly in general.
