@@ -45,9 +45,9 @@ Complexity: `O(n)`
 
 ## Performance
 
-Regardless the complexity of Big O notation, for some reasons, burte force approach runs faster than hash table approach, this might caused by browser rendering, language mechanism, etc.
+Regardless the complexity of Big O notation, for some reasons, burte force approach runs faster than hash table approach, this might caused by browser rendering, language mechanism and etc.
 
-![Brute force approach vs Hash table approach](../imgs/bgFpTwW.jpg)
+![Brute force approach vs Hash table approach](../imgs/bgFpTwW.jpg =300x)
 *img credit from leetcode community*
 
 I will try to dig up and see what caused it exactly, the Big O Notation applies thoroughly in general.
