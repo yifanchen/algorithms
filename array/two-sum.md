@@ -23,6 +23,18 @@ const twoSum = (nums, target) => {
   }
 }
 ```
+
+```javascript
+function twoSum(nums, target) {
+  for (let i = 0; i < nums.length; i++) {
+    for (let j = 0; j < nums.length; i++) {
+      if (target === nums[i] + nums[j]) {
+        if (i !== j) return [i, j]
+      }
+    }
+  }
+}
+```
 Complexity: `O(n^2)`
 
 ## Thoughts 2
